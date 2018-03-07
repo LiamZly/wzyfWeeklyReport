@@ -24,8 +24,8 @@ function writeLog(info) {
 // 发起一个post请求
 function post(data) {
   const options = {
-    hostname: 'fe.epoint.com.cn',
-    port: 8080,
+    hostname: '192.168.200.159',
+    port: 8066,
     path: '/weeklyreport/mail/sendmail.php',
     method: 'POST',
     headers: {
